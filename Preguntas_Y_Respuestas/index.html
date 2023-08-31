@@ -1,0 +1,74 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preguntas y respuestas</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Comenzar!!</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Algunas reglas del Juego</span></div>
+        <div class="info-list">
+            <div class="info">1. Tendras solo <span>15 segundos</span> para elegir una respuesta.</div>
+            <div class="info">2. Una vez que selecciona su respuesta, no se puede deshacer.</div>
+            <div class ="info">3. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div> 
+            <div class ="info">4. No puedes salir del Quiz mientras estás jugando.</div> 
+            <div class ="info">5. Obtendrás puntos según tus respuestas correctas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title"></div>
+
+            <div class="timer">
+                <div class="time_left_txt">Tiempo</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Siguiente pregunta</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Has terminado el Juego!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Jugar de nuevo</button>
+            <button class="quit">Salir</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
